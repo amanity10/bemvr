@@ -1,10 +1,10 @@
-*{
+/* *{
   outline: 2px solid red;
-}
+} */
 .header {
 display: flex;
 margin-top: 100px;
-min-height: 250px;
+min-height: 200px;
 }
 
 .header__logo {
@@ -25,11 +25,7 @@ min-height: 250px;
   display: flex;
   flex-direction: row;
 }
-
-.pic1 {
-  display: flex;
-}
-.title1{
+ .title{
 font-family: Intro;
   font-size: 60px;
   font-weight: 400;
@@ -37,8 +33,20 @@ font-family: Intro;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+} 
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
 }
 
-.pic2{
+.section2 {
+  margin-left: auto;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+justify-content: space-evenly;
 
 }
