@@ -1,6 +1,4 @@
-/* *{
-  outline: 2px solid red;
-} */
+
 .header {
 display: flex;
 margin-top: 100px;
@@ -11,7 +9,6 @@ min-height: 200px;
   width: 149.39px;
   height: 17.75px;
   margin-right: 70px;
-
 }
 
 .header__button {
@@ -25,7 +22,7 @@ min-height: 200px;
   display: flex;
   flex-direction: row;
 }
- .title{
+.title{
 font-family: Intro;
   font-size: 60px;
   font-weight: 400;
@@ -39,11 +36,23 @@ font-family: Intro;
   display: flex;
   flex-direction: column;
   margin-left: 30px;
+  justify-content: space-evenly;
+}
+
+.title {}
+
+.title3 {
+ 
+}
+
+.button-buy {
+
 }
 
 .section2 {
   margin-left: auto;
 }
+
 .footer{
   display: flex;
   flex-direction: row;
