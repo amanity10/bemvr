@@ -1,7 +1,9 @@
 .header {
   display: flex;
-  margin-top: 100px;
-  min-height: 150px;
+  justify-content: space-between;
+
+  margin-right: 5rem;
+  margin-top: 2rem;
 }
 
 .header__logo {
@@ -10,96 +12,59 @@
   margin-right: 70px;
 }
 
-.header__button {
-  width: 115px;
-  height: 38px;
-  top: 89px;
-  margin-left: auto;
-  margin-right: 70px;
+.button {
+  font-family: Verdana, sans-serif;
+  background-color: rgba(82, 34, 208, 1);
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.button-small {
+  font-size: 15px;
+
 }
 .title {
-  font-family: Intro;
+  font-family: Verdana, sans-serif;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.title1 {
   font-size: 60px;
   font-weight: 400;
   line-height: 72px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-transform: uppercase;
 }
+
 .title2 {
-  font-family: Intro;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
-}
-
-.title3 {
-  font-family: Roboto Slab;
+ 
   font-size: 20px;
   font-weight: 300;
   line-height: 32px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  
 }
 
-.container {
+.title3 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.title2-white{
+  color: aliceblue;
+}
+.container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
 }
 
-.item {
-  padding: 10px;
-  text-align: center;
+.rectangle{
+
+  width: 365px;
+  height: 270px;
+  background-color: rgba(236, 97, 91, 1);
 }
-
-
-.item-1 {
-
-grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.item-2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.item-3 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.item-4 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.item-5 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.item-6 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.footer__link {
+  margin-left: 70px;
 }

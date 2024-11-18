@@ -6,60 +6,111 @@
     <link rel="stylesheet" href="/bemvr/assets/styles/style2.css" />
     <title>Another page</title>
   </head>
-  <body>
+  <>
     <header class="header">
       <img
         src="/bemvr/assets/styles/images/svg/logo.svg"
         class="header__logo"
+        alt="logo"
       />
-      <img
-        src="/bemvr/assets/styles/images/svg/button-buy.svg"
-        class="header__button"
-      />
+
+      <button class="button">
+        <div class="button-small">Корзина</div>
+      </button>
+
       <nav class="menu">
         <ol>
           <li class="menu__item">
-            <a href="../../index.html">Перейти на домашнюю страницу</a>
+            <a href="index.html">Перейти на домашнюю страницу</a>
           </li>
           <li class="menu__item">
-            <a href="another-page.html" class="menu__link"
+            <a href="assets/pages/another-page.html" class="menu__link"
               >Перейти на another-page.html</a
             >
           </li>
         </ol>
       </nav>
     </header>
-    <h1 class="title">
-      Возможности
-    </h1>
+    <h1 class="title title1">Возможности</h1>
     <div class="container">
-      <div class="item item-1">
-        <img src="/bemvr/assets/styles/images2/svg2/Illustration_4 (1).svg" />
-        <h2 class="title2">Без проводов</h2>
-     <h3 class="title3">Шлем работает без проводов <br> Не нужен ни компьютер, <br> Ни внешнее питание, ни большое <br> помещение, чтобы расставить <br> треккеры.
-</h3>
-      <div class="item item-2">
-        <img src="/bemvr/assets/styles/images2/svg2/Illustration_4 (1).svg" />
-        <h2 class="title2">Без компьютера</h2>
-        <h3 class="title3">Современным VR -шлемам нужен  <br> мощный компьютер, чтобы <br> запускать игры. Наш шлем  <br>запускает игры из облака, поэтому <br> просто наслаждайтесь.</h3>
+      <div class="item">
+        <img
+          src="/bemvr/assets/styles/images2/svg2/Illustration_4 (1).svg"
+          alt="laboratory"
+        />
+        <h2 class="title title2">Без проводов</h2>
+        <h3 class="title title3">
+          Шлем работает без проводов <br />
+          Не нужен ни компьютер, <br />
+          Ни внешнее питание, ни большое <br />
+          помещение, чтобы расставить <br />
+          треккеры.
+        </h3>
       </div>
-      <div class="item item-3">
+      <div class="item">
+        <img src="/bemvr/assets/styles/images2/svg2/Illustration_4 (1).svg" />
+        <h2 class="title title2">Без компьютера</h2>
+        <h3 class="title title3">
+          Современным VR -шлемам нужен <br />
+          мощный компьютер, чтобы <br />
+          запускать игры. Наш шлем <br />запускает игры из облака, поэтому
+          <br />
+          просто наслаждайтесь.
+        </h3>
+      </div>
+      <div class="item">
         <img src="/bemvr/assets/styles/images2/svg2/Illustration_9 (1).svg" />
-        <h2 class="title2">До 10 часов работы</h2>
-        <h3 class="title3">Несмотря на компактность <br> и производительность, шлем <br> может работать до 10 часов -даже  <br> если вы играете в самые ресурсоемкие игры.</h3>
+        <h2 class="title title2">До 10 часов работы</h2>
+        <h3 class="title title3">
+          Несмотря на компактность <br />
+          и производительность, шлем <br />
+          может работать до 10 часов -даже <br />
+          если вы играете в самые ресурсоемкие игры.
+        </h3>
       </div>
-      <div class="item item-4">
-        <h2 class="title2">Сотни игр</h2>
-        <h3 class="title3">Уже сейчас вам доступно более <br> сотни игр от высокобюджетных <br> ААА -тайтлов до маленьких <br> независимых проектов. Скоро <br> их станет еще больше.</h3>
+      <div class="item">
+        <h2 class="title title2">Сотни игр</h2>
+        <h3 class="title title3">
+          Уже сейчас вам доступно более <br />
+          сотни игр от высокобюджетных <br />
+          ААА -тайтлов до маленьких <br />
+          независимых проектов. Скоро <br />
+          их станет еще больше.
+        </h3>
       </div>
-      <div class="item item-5">
-        <h2 class="title2">Почти даром</h2>
-        <h3 class="title3">По сравнению с другими <br> VR- шлемеми наш стоит гораздо <br> меньше. И вы существенно <br> экономите на мощном компьютере.</h3>
+      <div class="item">
+        <h2 class="title title2">Почти даром</h2>
+        <h3 class="title title3">
+          По сравнению с другими <br />
+          VR- шлемеми наш стоит гораздо <br />
+          меньше. И вы существенно <br />
+          экономите на мощном компьютере.
+        </h3>
       </div>
-      <div class="item item-6">
-        <img src="/bemvr/assets/styles/images2/svg2/Rectangleorange.svg" />
+      <div class="item">
+        <div class="rectangle">
+          <h2 class="title title2-white">новости</h2>
+          <button class="button">
+            <div class="button__small">Подписаться</div>
+          </button>
+          <form>
+            <div>
+              <label for="userEmail"></label>
+              <input
+                type="email"
+                placeholder="Электронная почта"
+                id="userEmail"
+              />
+            </div>
+          </form>
+        </div>
       </div>
-     
     </div>
+  <footer class="footer">
+      <a class="footer__button-buy" href="#">Возможности</a>
+      <a class="footer__link" href="#">Где купить</a>
+      <a class="footer__link" href="#">Доставка</a>
+      <a class="footer__link" href="#">Помощь</a>
+    </footer>
   </body>
 </html>
